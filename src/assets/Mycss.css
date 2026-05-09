@@ -1,0 +1,56 @@
+.demo-pagination-block{
+    margin-top: 30px;
+    padding: auto;
+}
+.demo-pagination-block .demonstration {
+  margin-bottom: 16px;
+}
+.manage_button{
+    margin: 10px;
+}
+.dialogConfirm{
+    margin:20px;
+    display: flex; /* 启用Flexbox布局 */  
+    flex-direction:row; /* 设置主轴方向 */  
+    align-items: center; /* 在交叉轴上居中对齐子元素（这里是水平居中，因为主轴是垂直的） */  
+    justify-content: space-around; /* 在主轴上均匀分布子元素，首尾有空间 */  
+    /* 或者使用 justify-content: center; 来完全居中，但子元素之间不会有间隔 */ 
+}
+.container{
+    width: 95%; /* 或者其他你需要的宽度 */  
+    padding: 20px;  
+    background-color: white;  
+    /* 添加立体感（阴影效果） */  
+    box-shadow: 0 0px 16px rgba(0,0,0,0.1);  
+    /* 可以调整阴影的水平偏移量、垂直偏移量、模糊半径和颜色 */  
+    margin: 20px auto; /* 居中显示，并添加外边距 */  
+    border-radius: 8px; /* 可选，添加圆角边框增加美观 */ 
+
+    display: flex; /* 启用Flexbox布局 */  
+    flex-direction: column; /* 设置主轴方向为垂直方向 */  
+    align-items: center; /* 在交叉轴上居中对齐子元素（这里是水平居中，因为主轴是垂直的） */  
+    justify-content: space-around; /* 在主轴上均匀分布子元素，首尾有空间 */  
+    /* 或者使用 justify-content: center; 来完全居中，但子元素之间不会有间隔 */  
+}
+.container_unDirected{
+    width: 95%; /* 或者其他你需要的宽度 */  
+    padding: 20px;  
+    background-color: white;  
+    /* 添加立体感（阴影效果） */  
+    box-shadow: 0 0px 16px rgba(0,0,0,0.1);  
+    /* 可以调整阴影的水平偏移量、垂直偏移量、模糊半径和颜色 */  
+    margin: 20px auto; /* 居中显示，并添加外边距 */  
+    border-radius: 8px; /* 可选，添加圆角边框增加美观 */ 
+}
+.volunteerForm{
+    margin: 30px;
+    background-color:rgba(234, 225, 128, 0.484);
+    border: 2px solid black;
+    width: 700px;
+    height: 800px;
+
+    display: flex; /* 启用Flexbox布局 */  
+    flex-direction: column; /* 设置主轴方向为垂直方向 */  
+    align-items: center; /* 在交叉轴上居中对齐子元素（这里是水平居中，因为主轴是垂直的） */  
+    justify-content: space-around; /* 在主轴上均匀分布子元素，首尾有空间 */  
+}
